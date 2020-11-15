@@ -1,37 +1,26 @@
-// 7-1 Sass Architecture
-// https://sass-guidelin.es/#the-7-1-pattern
-
-// Abstracts
-// - tools and helpers
 @import "./abstracts/functions";
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
-
-// Vendors
-// - CSS from external libraries and frameworks
-@import "./vendors/googlefonts";
-@import "./vendors/bootstrap";
-
-// Base
-// - standard styles for commonly elements
-@import "./base/base";
-@import "./base/helpers";
 @import "./base/fonts";
-@import "./base/typography";
+@import "./vendors/bootstrap";
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/Cairo-Light.ttf');
+}
 
-// Components
-// - for small, reusable pieces
-@import "./components/buttons";
+* {
+    font-family: myFirstFont !important;
+}
 
-// Layout
-// - everything that takes part in laying out the site/application
-@import "./layout/header";
-@import "./layout/footer";
+.loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+    z-index: 9999999;
+}
 
-// Pages
-// - page-specific styles
-@import "./pages/home";
 
-// Themes
-// - for different aspects
-@import "./themes/default";
+/*end*/

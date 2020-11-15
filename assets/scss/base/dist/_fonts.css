@@ -1,0 +1,11 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("/assets/fonts/Cairo-Light.ttf");
+  font-weight: bold;
+}
+
+* {
+  font-family: myFirstFont !important;
+}
+
+/*# sourceMappingURL=_fonts.css.map */

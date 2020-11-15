@@ -2,12 +2,10 @@
 // Bootstrap 4
 // http://getbootstrap.com
 // -----------------------------------------------------------------------------
-
 // Required
 // "~bootstrap/scss/functions" file is imported in "../abstracts/functions"
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
-
 // Optional
 // import only the necessary
 @import "~bootstrap/scss/root";
@@ -44,3 +42,5 @@
 @import "~bootstrap/scss/spinners";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
+
+/*all*/

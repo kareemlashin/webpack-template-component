@@ -1,5 +1,10 @@
 // JavaScript
-import './scripts/main'
-
+import './scss/main.scss';
+import './scripts/main';
 // Styles
-import './scss/main.scss'
+$(document).ready(function() {
+
+    $(".loading").hide();
+
+
+});
